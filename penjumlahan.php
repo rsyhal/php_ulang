@@ -21,6 +21,25 @@ $y = "7";
 
 $q = $v * $y ;
 
-echo ""
+echo "$v * $y = $q";
+echo "<hr>";
+
+$v = "7";
+$y = "7";
+
+$q = $v ** $y ;
+
+echo "$v ** $y = $q";
+echo "<hr>";
+
+$v = "13";
+$y = "7";
+
+$q = $v * $y ;
+
+echo "$v * $y = $q";
+echo "<hr>";
+
+
 
 ?>
