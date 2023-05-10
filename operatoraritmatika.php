@@ -32,12 +32,20 @@ $q = $v ** $y ;
 echo "$v ** $y = $q";
 echo "<hr>";
 
-$v = "13";
-$y = "7";
+$v = "16";
+$y = "2";
 
-$q = $v * $y ;
+$q = $v / $y ;
 
-echo "$v * $y = $q";
+echo "$v / $y = $q";
+echo "<hr>";
+
+$v = "18";
+$y = "3";
+
+$q = $v % $y ;
+
+echo "$v % $y = $q";
 echo "<hr>";
 
 
